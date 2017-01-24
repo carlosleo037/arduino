@@ -1,5 +1,54 @@
+#wrapper {
+    padding-top: 40px;
+    position: relative;
+    width: 530px;
+    height: 600px;
+	margin-right: auto;
+	margin-top: 0;
+	margin-left: auto;
+        font-size: 30px;
+        color: black;
+        text-align: center;
+        font-family: arial;
+}
 
-#TEMP{
-	color:#ff0066;
-	font size=5;
+div.rele1_ligado {
+    position: absolute;
+    right: -110px;
+    top: 220px;
+    width: 300px;
+    height: 206px;
+    border: none;
+		margin:auto;
+    background: url(lampada_ligada.png) no-repeat left top;
+}
+
+div.rele1_desligado {
+    position: absolute;
+    right: -110px;
+    top: 220px;
+    width: 300px;
+    height: 206px;
+    border: none;
+	background: url(lampada_desligada.png) no-repeat left top;
+}
+
+div.rele2_ligado {
+    position: absolute;
+    right: -110px;
+    top: 387px;
+    width: 300px;
+    height: 206px;
+    border: none;
+    background: url(lampada_ligada.png) no-repeat left top;
+}
+
+div.rele2_desligado {
+    position: absolute;
+    right: -110px;
+    top: 387px;
+    width: 300px;
+    height: 206px;
+    border: none;
+	background: url(lampada_desligada.png) no-repeat left top;
 }
